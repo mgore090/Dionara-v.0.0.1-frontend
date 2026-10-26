@@ -1,0 +1,166 @@
+.footer {
+width: 100%;
+box-sizing: border-box;
+background: #000;
+color: #fff;
+padding: 32px 36px 20px;
+font-family: Arial, sans-serif;
+margin-top: 40px;
+}
+
+.footer a {
+color: #fff;
+text-decoration: none;
+}
+
+.footer a:hover {
+color: #d7b99a;
+}
+
+.footer-top {
+display: grid;
+grid-template-columns: 2fr 1fr;
+gap: 50px;
+padding-bottom: 22px;
+}
+
+.footer-brand {
+max-width: 750px;
+}
+
+.footer-logo {
+display: inline-block;
+font-family: Georgia, serif;
+font-size: 28px;
+letter-spacing: 2px;
+margin-bottom: 15px;
+}
+
+.footer-description {
+max-width: 720px;
+font-size: 14px;
+line-height: 1.7;
+margin: 0 0 25px;
+}
+
+.footer-socials {
+display: flex;
+align-items: center;
+gap: 20px;
+}
+
+.instagram-link {
+display: inline-flex;
+align-items: center;
+gap: 9px;
+font-size: 14px;
+}
+
+.instagram-link svg {
+width: 25px;
+height: 25px;
+fill: none;
+stroke: currentColor;
+stroke-width: 2;
+}
+
+.footer-contact h3 {
+font-size: 20px;
+margin: 0 0 12px;
+}
+
+.footer-contact p {
+font-size: 14px;
+line-height: 1.6;
+margin: 5px 0;
+}
+
+.footer-address {
+max-width: 500px;
+}
+
+.footer-policy {
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+gap: 18px;
+padding: 20px 0;
+border-top: 1px solid #777;
+border-bottom: 1px solid #777;
+}
+
+.footer-policy a {
+font-size: 14px;
+font-weight: 600;
+}
+
+.footer-searches {
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+gap: 16px;
+padding: 22px 0;
+font-size: 13px;
+}
+
+.footer-searches a,
+.footer-searches span {
+color: #fff;
+}
+
+.footer-bottom {
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 20px;
+padding-top: 10px;
+}
+
+.footer-bottom p {
+font-size: 13px;
+margin: 0;
+}
+
+.go-to-top {
+border: none;
+background: #fff;
+color: #000;
+padding: 17px 28px;
+font-size: 15px;
+cursor: pointer;
+white-space: nowrap;
+}
+
+.go-to-top:hover {
+background: #e8d5c2;
+}
+
+@media (max-width: 768px) {
+.footer {
+padding: 28px 20px 18px;
+}
+
+.footer-top {
+grid-template-columns: 1fr;
+gap: 30px;
+}
+
+.footer-policy {
+justify-content: flex-start;
+gap: 18px 24px;
+}
+
+.footer-searches {
+gap: 14px;
+}
+
+.footer-bottom {
+flex-direction: column;
+align-items: flex-start;
+}
+
+.go-to-top {
+width: 100%;
+}
+}

@@ -1,0 +1,429 @@
+
+.about-page {
+  width: 100%;
+  overflow: hidden;
+  color: #29211c;
+  background: #fff;
+}
+
+/* Common styles */
+
+.about-section-eyebrow,
+.about-eyebrow {
+  color: #927157;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  line-height: 1.8;
+}
+
+.about-page h1,
+.about-page h2,
+.about-page h3,
+.about-page p {
+  overflow-wrap: break-word;
+}
+
+.about-page h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.about-page a {
+  transition: background 0.25s ease, color 0.25s ease;
+}
+
+/* Hero */
+
+.about-hero {
+  min-height: 480px;
+  padding: 90px 20px 100px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #f7f0e8;
+}
+
+.about-eyebrow {
+  margin: 0 0 22px;
+}
+
+.about-hero h1 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(48px, 7vw, 86px);
+  font-weight: 400;
+  line-height: 1.08;
+  letter-spacing: -2px;
+}
+
+.about-hero h1 span,
+.about-intro-content h2 span,
+.about-contact h2 span {
+  color: #927157;
+  font-style: italic;
+}
+
+.about-hero-description {
+  max-width: 540px;
+  margin: 25px 0 30px;
+  color: #75675c;
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+.about-primary-button,
+.about-secondary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 17px 27px;
+  box-sizing: border-box;
+  background: #211a16;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 1.4px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.about-primary-button:hover,
+.about-secondary-button:hover {
+  background: #80634d;
+  color: #fff;
+}
+
+/* Our story */
+
+.about-intro {
+  display: grid;
+  grid-template-columns: 0.7fr 1.3fr;
+  gap: 70px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 110px 6%;
+}
+
+.about-intro-label {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding-top: 12px;
+  color: #927157;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.about-intro-label span:first-child {
+  padding-bottom: 7px;
+  border-bottom: 1px solid #927157;
+}
+
+.about-intro-content h2,
+.about-products-content h2,
+.about-commitment h2,
+.about-contact h2 {
+  margin: 15px 0 25px;
+  font-size: clamp(36px, 5vw, 58px);
+}
+
+.about-intro-content > p:not(.about-section-eyebrow) {
+  max-width: 650px;
+  color: #75675c;
+  font-size: 15px;
+  line-height: 2;
+}
+
+.about-intro-content > p:last-child {
+  margin-top: 22px;
+}
+
+/* Philosophy */
+
+.about-philosophy {
+  padding: 95px 6% 105px;
+  background: #f7f0e8;
+}
+
+.about-philosophy-heading {
+  max-width: 720px;
+  margin: 0 auto 55px;
+  text-align: center;
+}
+
+.about-philosophy-heading h2 {
+  margin: 15px 0;
+  font-size: clamp(36px, 5vw, 54px);
+}
+
+.about-philosophy-heading > p:last-child {
+  max-width: 520px;
+  margin: 0 auto;
+  color: #75675c;
+  font-size: 14px;
+  line-height: 1.9;
+}
+
+.about-values-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-value-card {
+  position: relative;
+  min-height: 240px;
+  padding: 32px;
+  box-sizing: border-box;
+  background: #fff;
+}
+
+.about-value-number {
+  position: absolute;
+  top: 22px;
+  right: 22px;
+  color: #c8b6a5;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+
+.about-value-icon {
+  margin-bottom: 25px;
+  color: #927157;
+  font-family: Georgia, serif;
+  font-size: 35px;
+}
+
+.about-value-card h3 {
+  margin: 0 0 12px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.about-value-card p {
+  margin: 0;
+  color: #75675c;
+  font-size: 13px;
+  line-height: 1.9;
+}
+
+/* Product highlights */
+
+.about-products {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 110px 6%;
+}
+
+.about-products-content h2 {
+  margin-bottom: 22px;
+}
+
+.about-products-content > p:not(.about-section-eyebrow) {
+  max-width: 500px;
+  margin-bottom: 28px;
+  color: #75675c;
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+.about-product-highlights {
+  border-top: 1px solid #e6d9cd;
+}
+
+.about-product-highlight {
+  display: grid;
+  grid-template-columns: 35px 1fr;
+  gap: 18px;
+  padding: 28px 0;
+  border-bottom: 1px solid #e6d9cd;
+}
+
+.about-highlight-number {
+  padding-top: 4px;
+  color: #927157;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+
+.about-product-highlight h3 {
+  margin: 0 0 10px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.about-product-highlight p {
+  margin: 0;
+  color: #75675c;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+/* Commitment */
+
+.about-commitment {
+  padding: 90px 6%;
+  text-align: center;
+  background: #29211c;
+  color: #fff;
+}
+
+.about-commitment .about-section-eyebrow {
+  color: #d5b99e;
+}
+
+.about-commitment h2 {
+  margin: 15px 0 20px;
+}
+
+.about-commitment-description {
+  max-width: 650px;
+  margin: 0 auto;
+  color: #ded3ca;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.about-commitment-points {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 25px;
+  max-width: 1000px;
+  margin: 55px auto 0;
+}
+
+.about-commitment-points > div {
+  padding-top: 22px;
+  border-top: 1px solid #66554a;
+}
+
+.about-commitment-points span {
+  color: #d5b99e;
+  font-size: 11px;
+  letter-spacing: 2px;
+}
+
+.about-commitment-points p {
+  margin: 12px 0 0;
+  font-size: 14px;
+}
+
+/* Contact */
+
+.about-contact {
+  padding: 100px 20px;
+  text-align: center;
+  background: #f7f0e8;
+}
+
+.about-contact h2 {
+  margin-bottom: 20px;
+}
+
+.about-contact > p:not(.about-section-eyebrow) {
+  max-width: 530px;
+  margin: 0 auto 25px;
+  color: #75675c;
+  font-size: 14px;
+  line-height: 1.9;
+}
+
+.about-contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px 28px;
+  margin: 25px 0 32px;
+}
+
+.about-contact-links a {
+  color: #665043;
+  font-size: 14px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.about-contact-links a:hover {
+  color: #211a16;
+}
+
+/* Responsive */
+
+@media (max-width: 800px) {
+  .about-intro {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 75px 7%;
+  }
+
+  .about-values-grid {
+    grid-template-columns: 1fr;
+    max-width: 500px;
+  }
+
+  .about-value-card {
+    min-height: auto;
+  }
+
+  .about-products {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding: 75px 7%;
+  }
+
+  .about-commitment-points {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-hero {
+    min-height: 420px;
+    padding: 65px 20px;
+  }
+
+  .about-hero h1 {
+    letter-spacing: -1px;
+  }
+
+  .about-hero-description {
+    font-size: 14px;
+  }
+
+  .about-philosophy {
+    padding: 70px 20px;
+  }
+
+  .about-intro-content h2,
+  .about-products-content h2,
+  .about-commitment h2,
+  .about-contact h2 {
+    font-size: 36px;
+  }
+
+  .about-contact {
+    padding: 75px 20px;
+  }
+
+  .about-contact-links {
+    flex-direction: column;
+    align-items: center;
+  }
+}
