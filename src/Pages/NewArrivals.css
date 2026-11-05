@@ -1,0 +1,211 @@
+
+/* =========================================
+   DIANORA - NEW ARRIVALS PAGE
+   Navbar styles are intentionally untouched.
+========================================= */
+
+.new-arrivals-page {
+  /* width: 100%;
+  max-width: 1440px;
+  min-height: 60vh;
+  margin: 0 auto;
+  padding: 42px 5% 80px;
+  box-sizing: border-box;
+  background: #ffffff;
+  color: #29211c; */
+  min-height: 40vh;
+  background: #fff;
+  color: #29211c;
+}
+
+/* Page heading */
+
+.new-arrivals-heading {
+  padding: 30px 20px 45px;
+  text-align: center;
+  background: #f7f0e8;
+}
+
+.new-arrivals-eyebrow {
+  margin: 0 0 14px;
+  color: #927157;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  line-height: 1.6;
+  text-transform: uppercase;
+}
+
+.new-arrivals-heading h1 {
+  margin: 0 0 14px;
+  color: #29211c;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(36px, 4vw, 52px);
+  font-weight: 400;
+  line-height: 1;
+}
+
+.new-arrivals-description {
+  margin: 0;
+  color: #75675c;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+/* Products section */
+
+.new-arrivals-products {
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+}
+
+.new-arrivals-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  width: 100%;
+  margin: 0 0 28px;
+  padding: 0 0 18px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #e8dfd7;
+}
+
+.new-arrivals-toolbar p {
+  margin: 0;
+  color: #29211c;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.new-arrivals-toolbar span {
+  color: #817367;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 13px;
+}
+
+/* Responsive product grid */
+
+.new-arrivals-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: stretch;
+  gap: 28px 24px;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.new-arrivals-card {
+  width: 100%;
+  min-width: 0;
+  max-width: none;
+  align-self: stretch;
+  box-sizing: border-box;
+}
+
+/* Make the existing ProductCard fit its grid cell */
+
+.new-arrivals-card > * {
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+/* Empty state */
+
+.new-arrivals-empty {
+  width: 100%;
+  padding: 65px 20px;
+  box-sizing: border-box;
+  border: 1px solid #e8dfd7;
+  background: #fcfaf8;
+  text-align: center;
+}
+
+.new-arrivals-empty h2 {
+  margin: 0 0 12px;
+  color: #29211c;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.new-arrivals-empty p {
+  margin: 0;
+  color: #817367;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+/* Tablet */
+
+@media (max-width: 360px) {
+  .new-arrivals-page {
+    padding: 32px 4% 60px;
+  }
+
+  .new-arrivals-heading {
+    margin-bottom: 38px;
+    padding: 36px 24px;
+  }
+
+  .new-arrivals-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px 18px;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 700px) {
+  .new-arrivals-page {
+    padding: 22px 16px 45px;
+  }
+
+  .new-arrivals-heading {
+    margin-bottom: 30px;
+    padding: 30px 16px;
+  }
+
+  .new-arrivals-eyebrow {
+    font-size: 10px;
+    letter-spacing: 2px;
+  }
+
+  .new-arrivals-heading h1 {
+    font-size: 34px;
+  }
+
+  .new-arrivals-description {
+    font-size: 13px;
+  }
+
+  .new-arrivals-toolbar {
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 22px;
+    padding-bottom: 14px;
+  }
+
+  .new-arrivals-toolbar span {
+    font-size: 12px;
+  }
+
+  /* .new-arrivals-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 22px;
+  } */
+
+  .new-arrivals-empty {
+    padding: 45px 18px;
+  }
+
+  .new-arrivals-empty h2 {
+    font-size: 24px;
+  }
+}

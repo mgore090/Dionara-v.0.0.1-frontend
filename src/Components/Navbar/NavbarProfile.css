@@ -1,0 +1,79 @@
+/* Customer profile menu styles; Navbar's existing styles remain unchanged. */
+.dinora-profile-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.dinora-profile-button {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #b8b8b8;
+  border-radius: 50%;
+  background: #fff;
+  color: #111;
+  cursor: pointer;
+}
+
+.dinora-profile-button:hover {
+  border-color: #111;
+}
+
+.dinora-profile-dropdown {
+  position: absolute;
+  top: calc(100% + 12px);
+  right: 0;
+  z-index: 1000;
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.dinora-profile-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 14px 16px;
+  border-bottom: 1px solid #eee;
+  overflow-wrap: anywhere;
+}
+
+.dinora-profile-heading strong {
+  font-size: 14px;
+  font-weight: 600;
+  color: #111;
+}
+
+.dinora-profile-heading span {
+  font-size: 12px;
+  color: #777;
+}
+
+.dinora-profile-dropdown a,
+.dinora-profile-dropdown button {
+  padding: 12px 16px;
+  text-align: left;
+  font: inherit;
+  font-size: 13px;
+  color: #222;
+  text-decoration: none;
+  background: #fff;
+  border: 0;
+  cursor: pointer;
+}
+
+.dinora-profile-dropdown a:hover,
+.dinora-profile-dropdown button:hover {
+  background: #f7f4f0;
+}
+
+.dinora-profile-dropdown button {
+  border-top: 1px solid #eee;
+  color: #b42318;
+}

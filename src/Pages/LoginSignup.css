@@ -1,0 +1,231 @@
+
+.dianora-login-page {
+  min-height: 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 55px 20px;
+  box-sizing: border-box;
+  background: #fff;
+  color: #29211c;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 460px;
+  padding: 42px;
+  box-sizing: border-box;
+  border: 1px solid #e8dfd7;
+  background: #fff;
+}
+
+.login-brand {
+  display: inline-block;
+  margin-bottom: 35px;
+  color: #17120f;
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 5px;
+  text-decoration: none;
+}
+
+.login-eyebrow {
+  margin: 0 0 12px;
+  color: #927157;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.login-card h1 {
+  margin: 0 0 14px;
+  color: #29211c;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 34px;
+  font-weight: 400;
+}
+
+.login-description {
+  margin: 0 0 28px;
+  color: #75675c;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.login-description strong {
+  color: #29211c;
+}
+
+.login-label {
+  display: block;
+  margin-bottom: 10px;
+  color: #46372d;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.login-phone-input {
+  display: flex;
+  align-items: center;
+  min-height: 52px;
+  border: 1px solid #d9cec3;
+}
+
+.login-country-code {
+  padding: 0 14px;
+  border-right: 1px solid #e8dfd7;
+  color: #665043;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.login-phone-input input,
+.login-otp-input {
+  width: 100%;
+  min-width: 0;
+  min-height: 50px;
+  padding: 13px;
+  box-sizing: border-box;
+  border: 1px solid #d9cec3;
+  border-radius: 0;
+  outline: none;
+  background: #fff;
+  color: #29211c;
+  font: inherit;
+  font-size: 14px;
+}
+
+.login-phone-input input {
+  border: none;
+}
+
+.login-phone-input:focus-within,
+.login-otp-input:focus {
+  border-color: #927157;
+}
+
+.login-otp-input {
+  letter-spacing: 7px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.login-primary-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 52px;
+  margin-top: 22px;
+  padding: 15px;
+  box-sizing: border-box;
+  border: 1px solid #211a16;
+  background: #211a16;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.login-primary-button:hover {
+  background: #80634d;
+  border-color: #80634d;
+}
+
+.login-message {
+  margin: 14px 0 0;
+  padding: 12px;
+  border: 1px solid #e2b9b4;
+  background: #fff5f4;
+  color: #9b3028;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.login-terms,
+.login-demo-note {
+  margin: 22px 0 0;
+  color: #817367;
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+.login-terms a {
+  color: #665043;
+}
+
+.login-otp-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin-top: 18px;
+}
+
+.login-otp-actions button,
+.login-change-account {
+  padding: 5px 0;
+  border: none;
+  background: transparent;
+  color: #665043;
+  font-size: 13px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.login-success {
+  text-align: center;
+}
+
+.login-success-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  background: #e9f3e8;
+  color: #397044;
+  font-size: 28px;
+}
+
+.login-shop-link {
+  margin-top: 25px;
+}
+
+.login-change-account {
+  margin-top: 15px;
+}
+
+.login-footer {
+  margin-top: 35px;
+  padding-top: 20px;
+  border-top: 1px solid #e8dfd7;
+  color: #927157;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 13px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .dianora-login-page {
+    padding: 30px 16px;
+  }
+
+  .login-card {
+    padding: 28px 20px;
+  }
+
+  .login-card h1 {
+    font-size: 29px;
+  }
+
+  .login-brand {
+    font-size: 26px;
+  }
+}
