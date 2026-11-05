@@ -1,1 +1,137 @@
-.d-account-page{background:#faf7f2;min-height:65vh;padding:54px 22px 72px;color:#211b18;font-family:inherit}.d-account-container{max-width:1100px;margin:0 auto}.d-account-heading{text-align:center;margin:0 auto 38px;max-width:700px}.d-account-eyebrow{font-size:11px;letter-spacing:3px;color:#98765d;font-weight:600;margin:0 0 12px}.d-account-heading h1{font-family:Georgia,serif;font-size:42px;font-weight:400;margin:0 0 12px}.d-account-heading>p:last-child{color:#766b63;font-size:15px;line-height:1.7}.d-account-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.d-account-tile{display:block;text-decoration:none;color:inherit;background:#fff;border:1px solid #e9e1d9;padding:30px 26px;min-height:210px;transition:transform .2s,border-color .2s}.d-account-tile:hover{transform:translateY(-3px);border-color:#b99a7d}.d-account-tile-icon{display:inline-flex;width:42px;height:42px;align-items:center;justify-content:center;border-radius:50%;background:#f5eee7;font-size:23px;color:#7d5d43}.d-account-tile h2{font:normal 24px Georgia,serif;margin:18px 0 9px}.d-account-tile p{font-size:14px;line-height:1.6;color:#81756c;margin:0 0 20px}.d-account-tile-link{font-size:12px;letter-spacing:.7px;text-transform:uppercase;font-weight:600}.d-account-help{margin-top:30px;background:#fff;border:1px solid #e9e1d9;padding:22px 26px;font-size:14px}.d-account-help p{margin:7px 0 0;color:#81756c}.d-account-notice{max-width:600px;margin:60px auto;text-align:center;background:#fff;padding:40px;border:1px solid #e9e1d9}.d-account-button{display:inline-block;background:#211b18;color:white;text-decoration:none;padding:13px 32px;margin-top:12px}.@media(max-width:760px){.d-account-grid{grid-template-columns:1fr}.d-account-heading h1{font-size:34px}.d-account-page{padding:35px 16px}}
+.d-account-page {
+  background: #faf7f2;
+  min-height: 65vh;
+  padding: 54px 22px 72px;
+  color: #211b18;
+  font-family: inherit;
+}
+
+.d-account-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.d-account-heading {
+  text-align: center;
+  margin: 0 auto 38px;
+  max-width: 700px;
+}
+
+.d-account-eyebrow {
+  font-size: 11px;
+  letter-spacing: 3px;
+  color: #98765d;
+  font-weight: 600;
+  margin: 0 0 12px;
+}
+
+.d-account-heading h1 {
+  font-family: Georgia, serif;
+  font-size: 42px;
+  font-weight: 400;
+  margin: 0 0 12px;
+}
+
+.d-account-heading > p:last-child {
+  color: #766b63;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.d-account-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.d-account-tile {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  background: #fff;
+  border: 1px solid #e9e1d9;
+  padding: 30px 26px;
+  min-height: 210px;
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.d-account-tile:hover {
+  transform: translateY(-3px);
+  border-color: #b99a7d;
+}
+
+.d-account-tile-icon {
+  display: inline-flex;
+  width: 42px;
+  height: 42px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #f5eee7;
+  font-size: 23px;
+  color: #7d5d43;
+}
+
+.d-account-tile h2 {
+  font: normal 24px Georgia, serif;
+  margin: 18px 0 9px;
+}
+
+.d-account-tile p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #81756c;
+  margin: 0 0 20px;
+}
+
+.d-account-tile-link {
+  font-size: 12px;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.d-account-help {
+  margin-top: 30px;
+  background: #fff;
+  border: 1px solid #e9e1d9;
+  padding: 22px 26px;
+  font-size: 14px;
+}
+
+.d-account-help p {
+  margin: 7px 0 0;
+  color: #81756c;
+}
+
+.d-account-notice {
+  max-width: 600px;
+  margin: 60px auto;
+  text-align: center;
+  background: #fff;
+  padding: 40px;
+  border: 1px solid #e9e1d9;
+}
+
+.d-account-button {
+  display: inline-block;
+  background: #211b18;
+  color: white;
+  text-decoration: none;
+  padding: 13px 32px;
+  margin-top: 12px;
+}
+
+@media (max-width: 760px) {
+  .d-account-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .d-account-heading h1 {
+    font-size: 34px;
+  }
+
+  .d-account-page {
+    padding: 35px 16px;
+  }
+}
